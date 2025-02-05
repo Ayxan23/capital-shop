@@ -37,10 +37,10 @@ imgnav_left.addEventListener("click", () => {
 
 function textPlace() {
   if (text_key) {
-    slider_text.style.justifyContent = "flex-end";
+    slider_text.style.justifyContent = "flex-start";
     text_key = false;
   } else {
-    slider_text.style.justifyContent = "flex-start";
+    slider_text.style.justifyContent = "flex-end";
     text_key = true;
   }
 

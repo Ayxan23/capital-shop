@@ -61,6 +61,8 @@ li {
   font-weight: 600;
 }
 
+
+
 /* header_top */
 .header_top {
   border-bottom: 1px solid #edeff2;
@@ -374,6 +376,7 @@ header {
 
 .slider_text_area {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   width: 80%;
 }
@@ -711,7 +714,10 @@ header {
   align-items: center;
   transition: all 0.3s linear;
   cursor: pointer;
+  border-radius: 8px;
 }
+
+
 
 .trend_button:hover {
   background-color: var(--bs-red);
@@ -942,6 +948,11 @@ a {
   align-items: center;
   transition: all 0.3s linear;
   cursor: pointer;
+  border-radius: 8px;
+}
+
+.trend_button_two,.trend_button_three{
+  display: none;
 }
 
 .like_button:hover {
@@ -1300,7 +1311,7 @@ footer {
   color: var(--bs-red);
   white-space: nowrap;
   user-select: none;
-  cursor: none;
+  cursor: pointer;
 }
 
 /* contact */
